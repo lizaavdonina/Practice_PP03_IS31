@@ -6,6 +6,8 @@ from PIL import Image, ImageTk
 
 class ImageEditorApp:
     def __init__(self, root):
+        # Начало таймера для инициализации приложения
+        init_start_time = time.time()
         self.root = root
         self.root.title("Image Editor")
 
